@@ -12,8 +12,12 @@ func RandomStuff() {
 	fmt.Println("Print from RandomStuff")
 }
 
-// RandomWackyStuffV2 comment.
+// RandomWackyStuffV2 comment
 func RandomWackyStuffV2() {
+	fmt.Println("Print from RandomWackyStuff")
+}
+
+func RandomWackyStuffV3() {
 	fmt.Println("Print from RandomWackyStuff")
 }
 
