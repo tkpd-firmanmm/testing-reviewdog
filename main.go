@@ -12,6 +12,10 @@ func RandomStuff() {
 	fmt.Println("Print from RandomStuff")
 }
 
+func randomWackyStuff() bool {
+	return true
+}
+
 // RandomWackyStuffV2 comment
 func RandomWackyStuffV2() {
 	fmt.Println("Print from RandomWackyStuff")
@@ -24,8 +28,4 @@ func RandomWackyStuffV3() {
 // RandomWackyStuff comment
 func RandomWackyStuff() {
 	fmt.Println("Print from RandomWackyStuff")
-}
-
-func randomWackyStuff() bool {
-	return true
 }
