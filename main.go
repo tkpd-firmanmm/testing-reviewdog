@@ -2,6 +2,8 @@ package testingreviewdog
 
 import "fmt"
 
+// golangci-lint run --out-format line-number
+
 func main() {
 	RandomStuff()
 	RandomWackyStuff()
