@@ -25,3 +25,7 @@ func RandomWackyStuffV3() {
 func RandomWackyStuff() {
 	fmt.Println("Print from RandomWackyStuff")
 }
+
+func randomWackyStuff() bool {
+	return true
+}
