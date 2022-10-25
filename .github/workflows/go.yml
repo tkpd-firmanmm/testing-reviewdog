@@ -1,23 +1,23 @@
-name: Go
+# name: Go
 
-on:
-  pull_request:
-    branches: [ "main" ]
-    inputs:
-      reviewdog_version:
-        description: 'reviewdog version. [latest,nightly,vX.Y.Z]'
-        default: 'latest'
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: golangci-lint
-      uses: reviewdog/action-golangci-lint@v2
-      with:
-        reporter: github-pr-review
-    #    golangci_lint_flags: "--fix"
-    # - uses: reviewdog/action-suggester@v1
-    #   with:
-    #     filter_mode: "added"
+# on:
+#   pull_request:
+#     branches: [ "main" ]
+#     inputs:
+#       reviewdog_version:
+#         description: 'reviewdog version. [latest,nightly,vX.Y.Z]'
+#         default: 'latest'
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@v3
+#     - name: golangci-lint
+#       uses: reviewdog/action-golangci-lint@v2
+#       with:
+#         reporter: github-pr-review
+#     #    golangci_lint_flags: "--fix"
+#     # - uses: reviewdog/action-suggester@v1
+#     #   with:
+#     #     filter_mode: "added"
         
